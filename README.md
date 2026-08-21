@@ -1,10 +1,10 @@
-# LAM: Linear Arithmetic Synthesis Bank Mutator Documentation
+# LAM: Linear Arithmetic Synthesis Bank Mutator 
 
 ## Overview
 LAM (Linear Arithmetic Synthesis Bank Mutator) is a specialized software tool designed for sound designers and synthesizer enthusiasts. It allows users to manipulate and mutate Roland D-50 synthesizer SysEx (System Exclusive) data banks. By applying various algorithmic transformations to patch parameters, users can generate fresh, unexpected sound variations based on their existing library.
 
 ## Features
-- **SysEx Support**: Loads and processes standard Roland D-50 `.syx` bank files.
+- **SysEx Support**: Loads and processes standard Roland D-50/D-550 `.syx` bank files.
 - **Mutation Algorithms**:
     - **Standard**: Gaussian distribution-based variation.
     - **Drift**: Subtle, continuous shifting of values.
