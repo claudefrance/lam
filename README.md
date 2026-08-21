@@ -22,7 +22,7 @@ LAM (Linear Arithmetic Synthesis Bank Mutator) is a specialized software tool de
 ## Installation & Requirements
 - **Language**: Python 3.x
 - **Libraries**: `tkinter` (Standard GUI toolkit)
-- **Execution**: Run the `main` script using `python lam_script.py`.
+- **Execution**: Run the `main` script using `python lam.py`.
 
 ## User Interface Guide
 
