@@ -43,11 +43,6 @@ LAM (Linear Arithmetic Synthesis Bank Mutator) is a specialized software tool de
 - Click **"GENERATE BANKS"** and select a destination directory.
 - The system log will display progress updates once the process is complete.
 
-## Technical Details
-- **Data Handling**: The application parses the raw binary SysEx structure, identifying Roland D-50 patch data (starting from `0x8000`).
-- **Checksum Calculation**: Automatically recalculates the Roland-standard checksum for each mutated patch, ensuring the resulting `.syx` files are valid and loadable by hardware or software editors.
-- **Encoding**: Uses a specific character mapping table (`D50_CHARSET`) to ensure that generated names conform to the D-50's internal byte-encoding requirements.
-
 ## Troubleshooting
 - **File Format**: Ensure the file being loaded is a valid Roland D-50 SysEx file. The application requires F0...F7 SysEx message headers.
 - **No Changes**: If the mutation is not audible, check if too many parameters are "Locked" or if the mutation rate is set too low.
