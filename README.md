@@ -1,3 +1,6 @@
+
+<img width="1007" height="810" alt="Sans titre-2" src="https://github.com/user-attachments/assets/31250761-51d3-4cc5-b8e6-dcf4efb9ec03" />
+
 # LAM: Linear Arithmetic Synthesis Bank Mutator 
 
 ## Overview
